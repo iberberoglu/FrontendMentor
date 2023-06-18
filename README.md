@@ -2,7 +2,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](images/screenshot-qr.jpg)
+![](images/screenshot-qr.png)
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/iberberoglu)
 - Twitter - [@yourusername](https://www.twitter.com/iberberoglu)
