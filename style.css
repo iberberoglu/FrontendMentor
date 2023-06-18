@@ -1,0 +1,49 @@
+:root {
+  --text-color-secondary: hsl(220, 15%, 55%);
+  --text-color-primary: hsl(218, 44%, 22%);
+  --bg-color: hsl(212, 45%, 89%);
+  --text-font-p: 15px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  height: 100vh;
+}
+img {
+  width: 100%;
+}
+
+.container {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 300px;
+}
+.container img {
+  border-radius: 0.7rem;
+}
+.container h1 {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-top: 0.8rem;
+  text-align: center;
+  color: var(--text-color-primary);
+}
+.container p {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.7rem;
+  text-align: center;
+  color: var(--text-color-secondary);
+  margin-bottom: 0.8rem;
+}
