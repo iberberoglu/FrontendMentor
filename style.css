@@ -28,7 +28,7 @@ img {
   background-color: white;
   padding: 1rem;
   border-radius: 1rem;
-  width: 300px;
+  width: 320px;
 }
 .container img {
   border-radius: 0.7rem;
@@ -36,7 +36,7 @@ img {
 .container h1 {
   font-size: 1.2rem;
   padding: 0.5rem;
-  margin-top: 0.8rem;
+  margin-top: 1rem;
   text-align: center;
   color: var(--text-color-primary);
 }
@@ -45,5 +45,5 @@ img {
   padding: 0.5rem 0.7rem;
   text-align: center;
   color: var(--text-color-secondary);
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
 }
