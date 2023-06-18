@@ -4,5 +4,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](images/screenshot-qr.png)
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/iberberoglu)
-- Twitter - [@yourusername](https://www.twitter.com/iberberoglu)
+- Frontend Mentor - [@iberberoglu](https://www.frontendmentor.io/profile/iberberoglu)
+- Twitter - [@iberberoglu](https://www.twitter.com/iberberoglu)
