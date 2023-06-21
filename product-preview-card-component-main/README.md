@@ -4,11 +4,12 @@ This is a solution to the [Product Preview Card Component on Frontend Mentor](ht
 
 <h2>Desktop</h2>
 
-![](images/screenshot-desktop.png)
+<img src="images/screenshot-desktop.png" width="700">
 
 <h2>Mobile</h2>
 
-![](images/screenshot-mobile.png)
+<img src="images/screenshot-mobile.png" width="350">
+
 
 - Frontend Mentor - [@iberberoglu](https://www.frontendmentor.io/profile/iberberoglu)
 - Twitter - [@iberberoglu](https://www.twitter.com/iberberoglu)
