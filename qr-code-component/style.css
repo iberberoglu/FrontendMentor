@@ -48,3 +48,54 @@ img {
   color: var(--text-color-secondary);
   margin-bottom: 1rem;
 }
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+footer .attribution {
+  font-family: "Outfit", sans-serif;
+  color: var(--text-color-primary);
+  font-weight: 700;
+  font-size: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+footer div {
+}
+footer .attribution a {
+  color: var(--text-color-secondary);
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  transition: 0.2 ease;
+}
+footer .attribution a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  z-index: -1;
+  bottom: -3px;
+  rotate: 0deg;
+  border-radius: 2px;
+  transform: scale(0);
+  transform-origin: center;
+  transition: 0.2s ease;
+}
+footer .attribution a:hover::before {
+  transform: scale(1);
+  rotate: -1deg;
+  background-color: #3784ff;
+}
+footer .attribution a:hover {
+  color: white;
+  text-decoration: none;
+}
+@media (min-width: 650px) {
+  footer .attribution {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 321px) {
+  footer .attribution {
+    font-size: 0.5rem;
+  }
+}
