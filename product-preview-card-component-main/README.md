@@ -1,5 +1,10 @@
 This is a solution to the [Product Preview Card Component on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
+<hr>
+
+[Preview site](https://www.frontendmentor.io/profile/iberberoglu)
+
+
 ### Screenshots
 
 <h2>Desktop</h2>
