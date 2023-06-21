@@ -10,6 +10,5 @@ This is a solution to the [Product Preview Card Component on Frontend Mentor](ht
 
 <img src="images/screenshot-mobile.png" width="350">
 
-
 - Frontend Mentor - [@iberberoglu](https://www.frontendmentor.io/profile/iberberoglu)
 - Twitter - [@iberberoglu](https://www.twitter.com/iberberoglu)
