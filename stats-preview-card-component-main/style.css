@@ -84,9 +84,9 @@ main {
   display: flex;
   flex-direction: column;
   max-height: 85%;
-  max-width: 300px;
+  max-width: 275px;
   border-radius: 0.5rem;
-  overflow: scroll;
+
   background-color: var(--bg-secondary);
 }
 .mobile-img {
@@ -109,20 +109,20 @@ main picture::before {
 }
 main .info {
   text-align: center;
-  padding: 2.5rem 1.55em;
+  padding: 2rem 1.55em;
 }
 main .info h1 {
   color: var(--clr-heading);
   line-height: 1.1;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 main .info h1 span {
   color: var(--clr-accent);
 }
 main .info .info-paragraph {
   color: var(--clr-stat-headings);
-  margin-top: 1.2rem;
-  font-size: 0.9rem;
+  margin-top: 1rem;
+  font-size: 0.8rem;
 }
 main .info .stats-container {
   display: flex;
