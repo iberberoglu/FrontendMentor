@@ -180,3 +180,53 @@ main .info .stats-container .stats-type {
     font-size: 1.5rem;
   }
 }
+
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+footer .attribution {
+  font-family: "Outfit", sans-serif;
+  color: var(--clr-heading);
+  font-weight: 700;
+  font-size: 0.5rem;
+}
+
+footer .attribution a {
+  color: var(--clr-accent);
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  transition: 0.2 ease;
+}
+footer .attribution a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  z-index: -1;
+  bottom: -3px;
+  rotate: 0deg;
+  border-radius: 2px;
+  transform: scale(0);
+  transform-origin: center;
+  transition: 0.2s ease;
+}
+footer .attribution a:hover::before {
+  transform: scale(1);
+  rotate: -1deg;
+  background-color: var(--clr-accent);
+}
+footer .attribution a:hover {
+  text-decoration: none;
+  color: var(--clr-heading);
+}
+@media (min-width: 900px) {
+  footer .attribution {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 321px) {
+  footer .attribution {
+    font-size: 0.4rem;
+  }
+}
