@@ -2,7 +2,7 @@ This is a solution to the [Product Preview Card Component on Frontend Mentor](ht
 
 <hr>
 
-[Preview site](https://www.frontendmentor.io/profile/iberberoglu)
+[Preview site](https://iberberoglu-product-preview-card.netlify.app/)
 
 
 ### Screenshots

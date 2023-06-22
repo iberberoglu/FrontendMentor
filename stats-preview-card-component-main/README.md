@@ -2,7 +2,7 @@ This is a solution to the [Stats preview card component on Frontend Mentor](http
 
 <hr>
 
-[Preview site](https://www.frontendmentor.io/profile/iberberoglu)
+[Preview site](https://iberberoglu-stats-preview-card.netlify.app/)
 
 ### Screenshots
 
