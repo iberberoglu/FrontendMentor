@@ -31,7 +31,7 @@ body {
 
 .profile-img-container {
   background-color: white;
-  height: 190px;
+  height: 188px;
   position: relative;
 }
 
@@ -56,7 +56,7 @@ body {
 .profile-name h1 {
   font-size: 1em;
   margin-bottom: 0.3rem;
-
+  color: var(--clr-primary-700);
   margin-top: 1.1rem;
 }
 
@@ -76,7 +76,7 @@ body {
   background-color: white;
   display: flex;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .stats-flex {
@@ -89,6 +89,7 @@ body {
 .profile-stats h2 {
   font-size: 1em;
   margin-top: 1.38rem;
+  color: var(--clr-primary-700);
 }
 
 .profile-stats p {
