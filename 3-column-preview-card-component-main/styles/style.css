@@ -17,6 +17,7 @@ body {
   min-height: 100vh;
   font-size: 15px;
   position: relative;
+  background-color: var(--clr-neutral-400);
 }
 
 /* 327-442 */
@@ -90,7 +91,7 @@ main button {
   }
 
   main button {
-    margin-top: 3rem;
+    margin-top: 3.5rem;
   }
 }
 
