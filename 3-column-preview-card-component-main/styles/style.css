@@ -57,18 +57,34 @@ main button {
   font-weight: 400;
   font-size: 1.1em;
   font-family: var(--ff-secondary);
+  cursor: pointer;
 }
 
 .left-btn {
   color: var(--clr-primary-left);
 }
 
+.left-btn:hover {
+  background-color: var(--clr-primary-left);
+  color: var(--clr-neutral-400);
+}
+
 .middle-btn {
   color: var(--clr-primary-middlr);
 }
 
+.middle-btn:hover {
+  background-color: var(--clr-primary-middle);
+  color: var(--clr-neutral-400);
+}
+
 .right-btn {
   color: var(--clr-primary-right);
+}
+
+.right-btn:hover {
+  background-color: var(--clr-primary-right);
+  color: var(--clr-neutral-400);
 }
 
 .left-card {
