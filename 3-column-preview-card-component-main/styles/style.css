@@ -53,9 +53,7 @@ main {
 main button {
   border: 2px solid var(--clr-neutral-400);
   border-radius: 4em;
-  padding: 0.5rem 1.6rem;
-  font-weight: 400;
-  font-size: 1.1em;
+  padding: 0.6rem 1.8rem;
   font-family: var(--ff-secondary);
   cursor: pointer;
 }
@@ -70,7 +68,7 @@ main button {
 }
 
 .middle-btn {
-  color: var(--clr-primary-middlr);
+  color: var(--clr-primary-middle);
 }
 
 .middle-btn:hover {
