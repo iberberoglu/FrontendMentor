@@ -27,6 +27,7 @@
 body {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 main {
@@ -190,9 +191,7 @@ main {
 
 @media (min-width: 750px) {
   body {
-    display: grid;
-    align-content: center;
-    justify-content: center;
+    align-items: center;
     min-height: 100vh;
   }
 
@@ -234,5 +233,55 @@ main {
   .continue-btn {
     padding: 0.8rem;
     font-size: 1em;
+  }
+}
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+footer .attribution {
+  font-family: "Outfit", sans-serif;
+  color: var(--primary-cobalt-blue);
+  font-weight: 700;
+  font-size: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+
+footer .attribution a {
+  color: var(--neutral-dark-gray-blue);
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  transition: 0.2 ease;
+}
+footer .attribution a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  z-index: -1;
+  bottom: -3px;
+  rotate: 0deg;
+  border-radius: 2px;
+  transform: scale(0);
+  transform-origin: center;
+  transition: 0.2s ease;
+}
+footer .attribution a:hover::before {
+  transform: scale(1);
+  rotate: -1deg;
+  background-color: var(--primary-orange);
+}
+footer .attribution a:hover {
+  color: var(--neutral-white);
+  text-decoration: none;
+}
+@media (min-width: 650px) {
+  footer .attribution {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 321px) {
+  footer .attribution {
+    font-size: 0.5rem;
   }
 }
