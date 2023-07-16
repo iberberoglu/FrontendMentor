@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="left-section">
+        <p>Your Result</p>
+        <div class="score-circle">
+          <p>76</p>
+          <p>of 100</p>
+        </div>
+        <p>Great</p>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="right-section">
+        <p>Summary</p>
+        <div class="summary-boxes">
+          <div class="summary-box reaction-box">
+            <div class="summary-box__left">
+              <img
+                src="assets/images/icon-reaction.svg"
+                alt="icon reaction"
+                class="icon-reaction"
+              />
+              <p class="reaction">Reaction</p>
+            </div>
+            <p class="score-point">80 <span>/ 100</span></p>
+          </div>
+          <div class="summary-box memory-box">
+            <div class="summary-box__left">
+              <img
+                src="assets/images/icon-memory.svg"
+                alt="icon memory"
+                class="icon-memory"
+              />
+              <p class="memory">Memory</p>
+            </div>
+            <p class="score-point">92 <span>/ 100</span></p>
+          </div>
+          <div class="summary-box verbal-box">
+            <div class="summary-box__left">
+              <img
+                src="assets/images/icon-verbal.svg"
+                alt="icon verbal"
+                class="icon-verbal"
+              />
+              <p class="verbal">Verbal</p>
+            </div>
+            <p class="score-point">61 <span>/ 100</span></p>
+          </div>
+          <div class="summary-box visual-box">
+            <div class="summary-box__left">
+              <img
+                src="assets/images/icon-visual.svg"
+                alt="icon visual"
+                class="icon-visual"
+              />
+              <p class="visual">Visual</p>
+            </div>
+            <p class="score-point">72 <span>/ 100</span></p>
+          </div>
+        </div>
+
+        <button class="continue-btn">Continue</button>
+      </div>
+    </main>
+  </body>
+</html>
