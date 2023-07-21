@@ -1,0 +1,186 @@
+:root {
+  --primary-pale-blue: hsl(225, 100%, 94%);
+  --primary-pale-blue-transparent: hsla(225, 100%, 94%, 0.3);
+
+  --primary-bright-blue: hsl(245, 75%, 52%);
+  --primary-bright-blue-hover: hsla(245, 75%, 52%, 0.6);
+  --primary-bright-blue-shadow: hsl(245, 75%, 52%, 0.1);
+  --neutral-pale-blue: hsl(225, 100%, 98%);
+  --neutral-desaturated-blue: hsl(224, 23%, 55%);
+  --neutral-dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--primary-pale-blue);
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-img-desktop {
+  position: absolute;
+  top: 0;
+  z-index: -100;
+}
+
+.bg-img-mobile {
+  position: absolute;
+  top: 0;
+  z-index: -100;
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .bg-img-mobile {
+    display: inline-block;
+  }
+}
+
+main {
+  max-width: 335px;
+  background-color: var(--neutral-pale-blue);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.order-summary-section {
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.9rem;
+}
+
+.order-summary-section h1 {
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 900;
+  color: var(--neutral-dark-blue);
+}
+
+.order-summary-section .card-desc {
+  font-size: 0.9em;
+  width: 25ch;
+  text-align: center;
+  color: var(--neutral-desaturated-blue);
+}
+
+.annual-plan-card {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-pale-blue-transparent);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.annual-plan-card-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.annual-plan {
+  color: var(--neutral-dark-blue);
+  font-weight: 900;
+  font-size: 0.75em;
+}
+
+.price {
+  color: var(--neutral-desaturated-blue);
+  font-weight: 400;
+}
+
+.change-btn {
+  color: var(--primary-bright-blue);
+  font-weight: 600;
+  font-size: 0.75em;
+}
+
+.change-btn:hover {
+  text-decoration: none;
+  color: var(--primary-bright-blue-hover);
+}
+
+.proceed-btn {
+  border: none;
+  background-color: var(--primary-bright-blue);
+  color: var(--neutral-pale-blue);
+  font-weight: 900;
+  font-size: 0.8em;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  box-shadow: 0 20px 10px var(--primary-bright-blue-shadow);
+  cursor: pointer;
+}
+
+.proceed-btn:hover {
+  background-color: var(--primary-bright-blue-hover);
+}
+
+.cancel-btn {
+  border: none;
+  background: transparent;
+  color: var(--neutral-desaturated-blue);
+  font-weight: 900;
+  font-size: 0.8em;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  color: var(--neutral-dark-blue);
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+footer .attribution {
+  font-family: "Outfit", sans-serif;
+  color: var(--neutral-dark-blue);
+  font-weight: 700;
+  font-size: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+
+footer .attribution a {
+  color: var(--primary-bright-blue);
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  transition: 0.2 ease;
+}
+footer .attribution a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  z-index: -1;
+  bottom: -3px;
+  rotate: 0deg;
+  border-radius: 2px;
+  transform: scale(0);
+  transform-origin: center;
+  transition: 0.2s ease;
+}
+footer .attribution a:hover::before {
+  transform: scale(1);
+  rotate: -1deg;
+  background-color: var(--primary-bright-blue);
+}
+footer .attribution a:hover {
+  color: var(--neutral-pale-blue);
+  text-decoration: none;
+}
+@media (min-width: 650px) {
+  footer .attribution {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 321px) {
+  footer .attribution {
+    font-size: 0.5rem;
+  }
+}
