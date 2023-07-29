@@ -2,7 +2,7 @@ This is a solution to the [Single price grid component on Frontend Mentor](https
 
 <hr>
 
-[Preview site](https://iberberoglu-results-summary-component.netlify.app/)
+[Preview site](https://iberberoglu-single-grid-component.netlify.app/)
 
 ### Screenshots
 
