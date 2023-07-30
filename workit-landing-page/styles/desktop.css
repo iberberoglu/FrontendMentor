@@ -9,14 +9,25 @@
     padding: 3.5rem 10.3rem;
     height: 45rem;
   }
-  .header h1 {
+
+  .header .nav-apply {
+    font-size: 1.125rem;
+  }
+
+  .header .nav-logo {
+    width: 5.9rem;
+  }
+
+  .header .header-title {
     font-size: 5rem;
     line-height: 5rem;
     max-width: 39rem;
   }
+
   .header .title-button-container {
     text-align: center;
   }
+
   .header .title-button-container button {
     width: 10rem;
     height: 3.8rem;
@@ -28,7 +39,7 @@
   }
 
   .middle-section {
-    padding-top: 15rem;
+    padding-top: 16rem;
     padding-bottom: 10rem;
     margin-bottom: 6.8rem;
   }
