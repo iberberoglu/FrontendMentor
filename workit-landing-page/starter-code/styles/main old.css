@@ -1,0 +1,422 @@
+@font-face {
+  font-family: "Manrope";
+  src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url(../assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf)
+    format(truetype);
+  font-weight: 100 900;
+}
+
+:root {
+  --bg-purple: rgb(36, 5, 62);
+  --primary-green: rgb(68, 255, 161);
+  --primary-grey: rgb(88, 77, 98);
+  --primary-white: rgb(255, 255, 255);
+  --secondary-white: rgb(253, 250, 255);
+}
+
+.general-padding {
+  padding: 1.2rem;
+}
+
+.general-padding-header {
+  padding: 1.2rem;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.bg-pattern-one,
+.bg-pattern-two,
+.bg-pattern-three {
+  display: none;
+}
+
+header {
+  background-color: var(--bg-purple);
+  position: relative;
+  /* margin-bottom: 13.7rem; */
+  & .bg-pattern-one,
+  .bg-pattern-two {
+    position: absolute;
+  }
+
+  & .bg-pattern-one {
+    top: 4rem;
+    right: 85%;
+  }
+
+  & .bg-pattern-two {
+    top: 15rem;
+    left: 90%;
+  }
+  & nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4.13rem;
+    & ul {
+      list-style: none;
+      & .nav-apply {
+        text-decoration: none;
+        color: var(--primary-white);
+        font-family: "Manrope";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2rem; /* 200% */
+        letter-spacing: -0.01rem;
+        border-bottom: 0.1875rem solid var(--primary-green);
+      }
+    }
+  }
+  & h1 {
+    color: var(--primary-white);
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.125rem;
+    & span {
+      position: relative;
+    }
+    & span::after {
+      content: "";
+      width: 100%;
+      height: 3px;
+      background-color: var(--primary-green);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+  & .title-button-container {
+    text-align: center;
+    & button {
+      margin-top: 2.5rem;
+      background-color: var(--primary-green);
+      border: none;
+      width: 8.3125rem;
+      height: 3.4375rem;
+      font-family: "Manrope";
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 2rem;
+      color: var(--bg-purple);
+      /* margin-bottom: 5.79rem; */
+      margin-bottom: 0rem;
+    }
+  }
+  &::after {
+    content: "";
+    background-color: var(--bg-purple);
+    position: absolute;
+    z-index: 10;
+    width: 150%;
+    height: 4rem;
+    top: 106%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50% / 0 0 100% 100%;
+    box-shadow: 0px 5px 5px rgba(36, 5, 62, 0.1);
+  }
+  & .hero-img {
+    width: 20rem;
+    position: absolute;
+    z-index: 12;
+    /* top: 30rem; */
+    top: 113%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.middle-section {
+  text-align: center;
+  position: relative;
+  background-color: var(--secondary-white);
+  padding-top: 13.7rem;
+  & .article-number {
+    display: grid;
+    justify-items: center;
+    margin-bottom: 1.5rem;
+    & p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 1.90625rem;
+      border: 1px solid var(--davys-grey, #584d62);
+      color: var(--bg-purple);
+      font-family: "Fraunces";
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 2.25rem;
+    }
+  }
+  & .article-title {
+    font-family: "Fraunces";
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    margin-bottom: 1rem;
+    color: var(--bg-purple);
+  }
+  & .article-text {
+    font-family: "Manrope";
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.75rem;
+    margin-bottom: 0.3rem;
+    color: var(--primary-grey);
+  }
+  &::after {
+    content: "";
+    background-color: var(--secondary-white);
+    position: absolute;
+    width: 150%;
+    height: 3rem;
+    top: 102.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50% / 0 0 100% 100%;
+  }
+}
+
+.last-section {
+  margin-top: 1.5rem;
+  text-align: center;
+  position: relative;
+  & img {
+    width: 17.5625rem;
+    height: 17.5625rem;
+    position: absolute;
+    top: 16.2rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  & .founder-article {
+    margin-top: 20.5rem;
+
+    background-color: var(--bg-purple);
+    color: var(--primary-white);
+    padding: 2rem 1.7rem;
+    position: relative;
+    width: 32rem;
+    & .bg-pattern-three {
+      width: 13rem;
+      position: absolute;
+      top: 100%;
+      left: 77%;
+    }
+    & h2 {
+      margin-bottom: 1rem;
+      font-family: "Fraunces";
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 3rem;
+    }
+    & p {
+      margin-bottom: 1.5rem;
+      font-family: "Manrope";
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.75rem;
+    }
+  }
+
+  & button {
+    color: var(--bg-purple);
+    background-color: var(--primary-green);
+    font-family: "Manrope";
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: -0.01rem;
+    width: 10.75rem;
+    height: 3.4375rem;
+    border: none;
+  }
+}
+
+.footer-container {
+  width: 7.25rem;
+  margin: 4.62rem auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin-bottom: 4rem;
+  & .social-media {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .general-padding {
+    padding: 2.4rem;
+  }
+  .general-padding-header {
+    padding: 2.4rem;
+  }
+
+  .bg-pattern-one,
+  .bg-pattern-two,
+  .bg-pattern-three {
+    display: block;
+  }
+
+  header {
+    position: relative;
+    & h1 {
+      font-size: 3.75rem;
+      line-height: 3.75rem;
+      margin: 0 auto;
+      width: 25rem;
+    }
+    & .hero-img {
+      width: 30rem;
+      top: 34.5rem;
+    }
+  }
+  .middle-section {
+    text-align: start;
+    padding: 16rem 7.3rem 0;
+    & .article {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+    & .article-text {
+      margin-bottom: 3rem;
+    }
+  }
+  .last-section {
+    display: flex;
+    justify-content: end;
+    text-align: start;
+    & .founder-img {
+      width: 17.5625rem;
+      height: 17.5625rem;
+      position: absolute;
+      top: 17.2rem;
+      left: 12rem;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+    }
+    & .founder-article {
+      padding: 3rem 3.5rem 3.5rem;
+      margin-top: 15.7rem;
+
+      z-index: -1;
+      display: flex;
+      flex-direction: column;
+    }
+    & h2 {
+      font-size: 3rem;
+      line-height: 3.5rem;
+    }
+  }
+
+  .footer-container {
+    margin-bottom: 7.6rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .general-padding {
+    padding: 2.4rem;
+  }
+  .general-padding-header {
+    padding: 3.5rem 10.3rem 15rem;
+  }
+
+  header {
+    & h1 {
+      width: 32rem;
+      font-size: 5rem;
+      line-height: 5rem;
+    }
+
+    & .hero-img {
+      width: 44rem;
+      top: 105%;
+    }
+
+    &::after {
+      height: 5rem;
+    }
+    &::after {
+      width: 120%;
+    }
+  }
+
+  .middle-section {
+    text-align: center;
+    & .middle-section-container {
+      display: flex;
+      justify-content: center;
+      gap: 1.6rem;
+    }
+
+    & .article-number {
+      margin-bottom: 3.5rem;
+      margin-top: 16rem;
+    }
+
+    & .article-title {
+      margin-bottom: 1.75rem;
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+
+    & .article-text {
+      font-size: 1.125rem;
+      line-height: 2rem;
+    }
+
+    & .article {
+      display: block;
+      width: 22rem;
+    }
+    &::after {
+      content: "";
+      background-color: var(--secondary-white);
+      position: absolute;
+      width: 120%;
+      height: 3rem;
+      top: 102.5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50% / 0 0 110% 100%;
+    }
+  }
+
+  & .last-section {
+    & .founder-img {
+      width: 30rem;
+      height: 30rem;
+      top: 21.8rem;
+      left: 25rem;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+    }
+
+    & .founder-article {
+      padding: 4rem;
+      width: 45rem;
+    }
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
