@@ -1,0 +1,105 @@
+@media (min-width: 1024px) {
+  .last-section {
+    & .founder-img {
+      left: 7rem;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .header {
+    padding: 3.5rem 10.3rem;
+    height: 45rem;
+
+    & h1 {
+      font-size: 5rem;
+      line-height: 5rem;
+      max-width: 39rem;
+    }
+    & .title-button-container {
+      text-align: center;
+      & button {
+        width: 10rem;
+        height: 3.8rem;
+        font-size: 1.125rem;
+      }
+    }
+    & .hero-img {
+      max-width: 43rem;
+    }
+  }
+
+  .middle-section {
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    margin-bottom: 6.8rem;
+    & .middle-section-container {
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      gap: 1.6rem;
+      & .article {
+        flex-direction: column;
+        gap: 3.5rem;
+        & .article-number {
+          width: 3.5rem;
+          height: 3.5rem;
+          & p {
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            max-width: 22.1rem;
+          }
+        }
+        & h2 {
+          font-size: 2rem;
+          line-height: 2.5rem;
+          margin-bottom: 1.75rem;
+        }
+        & p {
+          max-width: 23rem;
+          font-size: 1.25rem;
+          line-height: 2rem;
+        }
+      }
+    }
+  }
+
+  .last-section {
+    padding: 10.8rem 0 0;
+    margin: 0 10.8rem;
+    & .founder-img {
+      width: 29rem;
+      left: 0;
+    }
+    & .founder-article {
+      width: 45rem;
+      padding: 4rem;
+      & .bg-pattern-three {
+        width: 13rem;
+        top: 17rem;
+        left: 28rem;
+      }
+      & h2 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+        margin-bottom: 2rem;
+      }
+      & p {
+        margin-bottom: 2rem;
+        font-size: 1.125rem;
+        line-height: 2rem;
+      }
+      & button {
+        width: 11.8rem;
+        height: 3.8rem;
+        font-size: 1.125rem;
+        line-height: 2rem;
+      }
+    }
+  }
+  .footer-container {
+    margin: 7.6rem auto 0;
+    margin-bottom: 7rem;
+  }
+}

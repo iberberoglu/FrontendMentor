@@ -18,97 +18,90 @@
     padding: 2rem 2.4rem;
     height: 33rem;
     position: relative;
+  }
+  .header .bg-container {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+  }
+  .header .bg-container .bg-pattern-one {
+    top: 4rem;
+    right: 85%;
+  }
 
-    & .bg-container {
-      position: absolute;
-      overflow: hidden;
-      top: 0;
-      left: 0;
-      background-color: transparent;
-      width: 100%;
-      height: 100%;
-      & .bg-pattern-one {
-        top: 4rem;
-        right: 85%;
-      }
+  .header .bg-container .bg-pattern-two {
+    top: 15rem;
+    left: 90%;
+  }
 
-      & .bg-pattern-two {
-        top: 15rem;
-        left: 90%;
-      }
-    }
+  .header nav ul li a {
+    position: relative;
+    z-index: 222;
+  }
 
-    & nav {
-      & ul {
-        & a {
-          position: relative;
-          z-index: 222;
-        }
-      }
-    }
+  .header h1 {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    max-width: 30rem;
+  }
 
-    & h1 {
-      font-size: 3.75rem;
-      line-height: 3.75rem;
-      max-width: 30rem;
-    }
+  .header .title-button-container .header-button {
+    position: relative;
+    z-index: 222;
+  }
 
-    & .title-button-container {
-      & button {
-        position: relative;
-        z-index: 222;
-      }
-    }
-
-    & .hero-img {
-      width: 100%;
-      max-width: 29rem;
-    }
+  .header .hero-img {
+    width: 100%;
+    max-width: 29rem;
   }
 
   .middle-section {
     padding-top: 12.7rem;
     margin-bottom: 6.2rem;
-    & .middle-section-container {
-      text-align: start;
-      gap: 3rem;
-      & .article {
-        flex-direction: row;
-        align-items: center;
-        gap: 2rem;
-        & p {
-          max-width: 28.8rem;
-        }
-      }
-    }
+  }
+  .middle-section .middle-section-container {
+    text-align: start;
+    gap: 3rem;
+  }
+  .middle-section .middle-section-container .article {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+  .middle-section .middle-section-container .article .article-text {
+    max-width: 28.8rem;
   }
 
   .last-section {
     padding: 9.44rem 0 0;
     margin: 0 2.5rem;
     justify-content: end;
-    & .founder-img {
-      left: 0;
-    }
-    & .founder-article {
-      width: 32.125rem;
-      text-align: start;
-      padding: 3rem 3.5rem 3.5rem;
-      position: relative;
+  }
+  .last-section .founder-img {
+    left: 0;
+  }
+  .last-section .founder-article {
+    width: 32.125rem;
+    text-align: start;
+    padding: 3rem 3.5rem 3.5rem;
+    position: relative;
+  }
 
-      & .bg-pattern-three {
-        width: 13rem;
-        top: 16rem;
-        left: 18rem;
-      }
-      & h2 {
-        font-size: 3rem;
-        line-height: 3.5rem;
-        margin-bottom: 1.5rem;
-      }
-      & p {
-        margin-bottom: 1.5rem;
-      }
-    }
+  .last-section .founder-article .bg-pattern-three {
+    width: 13rem;
+    top: 16rem;
+    left: 18rem;
+  }
+  .last-section .founder-article h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .last-section .founder-article p {
+    margin-bottom: 1.5rem;
   }
 }
