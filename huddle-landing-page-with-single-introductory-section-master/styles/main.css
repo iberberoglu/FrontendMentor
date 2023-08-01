@@ -15,6 +15,7 @@ body {
   background-size: contain;
   background-color: var(--primary-violet);
   margin: 2.39rem 2.5rem 1.9rem;
+  position: relative;
 }
 
 .header {
@@ -161,5 +162,60 @@ footer ul {
   .icons {
     width: 2.5rem;
     height: 2.5rem;
+  }
+}
+
+.attribution-container {
+  bottom: -3rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 1rem;
+  position: absolute;
+  width: 100%;
+}
+.attribution-container .attribution {
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+  color: var(--primary-white);
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.attribution-container .attribution p {
+  opacity: 0.5;
+}
+
+.attribution-container .attribution a {
+  position: relative;
+  transition: 0.2 ease;
+  color: var(--primary-white);
+  opacity: 0.5;
+}
+
+.attribution-container .attribution a:hover {
+  opacity: 1;
+  color: var(--primary-white);
+}
+
+.attribution-container .attribution a::before {
+  content: "";
+  background-color: var(--primary-magneta);
+  width: 100%;
+  height: 100%;
+  top: 2px;
+  position: absolute;
+  transform: rotate(2deg);
+  z-index: -1;
+  transform: scale(0);
+  transition: 0.2s all ease;
+}
+.attribution-container .attribution a:hover::before {
+  transform: scale(1);
+}
+
+@media (max-width: 522px) {
+  .attribution-container .attribution {
+    font-size: 0.4rem;
   }
 }
