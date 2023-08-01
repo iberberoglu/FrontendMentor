@@ -1,8 +1,8 @@
-This is a solution to the [Order Summary Component on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
+This is a solution to the [Order Summary Component on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
 
 <hr>
 
-[Preview site](https://iberberoglu-order-summary-component.netlify.app/)
+[Preview site](https://iberberoglu-four-card-feature.vercel.app/)
 
 ### Screenshots
 
