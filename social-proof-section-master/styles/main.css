@@ -182,6 +182,7 @@ body {
 
   .upper-section {
     flex-direction: row;
+    align-items: center;
     gap: 7.81rem;
     text-align: start;
   }
