@@ -2,7 +2,7 @@ This is a solution to the [Testimonials grid section on Frontend Mentor](https:/
 
 <hr>
 
-[Preview site](https://iberberoglu-stats-preview-card.netlify.app/)
+[Preview site](https://iberberoglu-testimonials-grid-section.netlify.app/)
 
 ### Screenshots
 
