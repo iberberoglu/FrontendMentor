@@ -1,8 +1,8 @@
-This is a solution to the [Stats preview card component on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
+This is a solution to the [Stats preview card component on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n).
 
 <hr>
 
-[Preview site](https://iberberoglu-stats-preview-card.netlify.app/)
+[Preview site](https://iberberoglu-fylo-data-storage.netlify.app/)
 
 ### Screenshots
 
